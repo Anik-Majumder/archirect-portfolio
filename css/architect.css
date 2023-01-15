@@ -129,7 +129,7 @@
 
 /* responsive */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
   /* navbar section */
   .navbar {
     display: flex;
@@ -154,6 +154,24 @@
   /*  banner section */
 
   .banner {
+    padding: 40px 0px;
+  }
+
+  /* features section */
+
+  .feature-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feature-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+  }
+
+  .feature-text {
+    width: 100%;
     padding: 40px 0px;
   }
 }
