@@ -48,6 +48,7 @@
   line-height: 76px;
   padding-bottom: 50px;
 }
+
 .banner-text p {
   font-size: 16px;
   font-weight: 400;
@@ -73,3 +74,32 @@
 }
 
 /* responsive */
+
+@media only screen and (max-width: 600px) {
+  /* navbar section */
+  .navbar {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo h1 {
+    padding-bottom: 20px;
+  }
+
+  .nav-items a {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-items a {
+    text-decoration: none;
+    padding: 0px 7px;
+    color: black;
+  }
+
+  /*  banner section */
+
+  .banner {
+    padding: 40px 0px;
+  }
+}
